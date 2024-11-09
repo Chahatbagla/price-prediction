@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffd1dc;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid #ff69b4;
+    border-radius: 8px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.search-btn, .predict-btn {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-btn:hover, .predict-btn:hover {
+    background-color: #ff1493;
+}
+
+.product-details img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+#predictions {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
